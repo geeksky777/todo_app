@@ -1,0 +1,91 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.log
+
+# --- Virtualenv / uv / pip ---
+.venv/
+.venv*/
+.envrc
+.env.local
+pip-wheel-metadata/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# --- IDE / Editors ---
+.vscode/
+.idea/
+*.iml
+
+# --- Temp / System ---
+*.so
+*.out
+*.class
+*.DS_Store
+Thumbs.db
+
+# --- Pytest / Coverage ---
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.cache/
+
+# --- Mypy / Ruff / Pyre ---
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.ruff_cache/
+.pyre/
+
+# --- Jupyter / IPython ---
+.ipynb_checkpoints/
+*.ipynb
+profile_default/
+ipython_config.py
+
+# --- Docker ---
+*.pid
+*.seed
+*.pid.lock
+docker-compose.override.yml
+
+# --- Databases ---
+*.db
+*.sqlite
+*.sqlite3
+
+# --- Environment ---
+.env
+.env.*
+!.env.example   # <-- оставляем пример окружения, чтобы новые люди знали переменные
+
+# --- Build / Dist ---
+build/
+dist/
+.eggs/
+*.egg-info/
+*.egg
+MANIFEST
+
+# --- Logs ---
+logs/
+*.log
+*.out
+*.err
+
+# --- Node (фронт, если появится) ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Alembic (сохраняем миграции) ---
+!alembic/
+!alembic/versions/
+
+# --- Tests (сохраняем тесты) ---
+!app/tests/
